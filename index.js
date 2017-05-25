@@ -15,6 +15,7 @@ app.get('/', function(request, response) {
 });
 
 app.get('/cool', function(request, response) {
+  console.log(cooltest);
   response.send(cool());
 });
 
